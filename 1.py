@@ -1,0 +1,1 @@
+exec(open('bombEmail.py', encoding="utf-8").read(), globals())
