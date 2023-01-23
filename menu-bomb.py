@@ -62,12 +62,10 @@ escolha = -1
 
 #escolhas
 
-while escolha < 1 or escolha > 4:
-    escolha = int(input("""quantas vezes voce deseja enviar o email?
-[ 1 ] enviar 1 vez
-[ 2 ] enviar 5 vezes
-[ 3 ] enviar 10 vezes    
-[ 4 ] enviar 30 vezes
+while escolha < 1 or escolha > 2:
+    escolha = int(input("""o email sera enviado infinitamente, para parar o script, use control + C
+
+[ 1 ] BOMB
     
 NÃO ME RESPONSABILIZO PELOS SEUS ATOS!!
 ESTE METODO PODERA CAUSAR O BANIMENTO DE SEU EMAIL!    
@@ -77,148 +75,6 @@ ESTE METODO PODERA CAUSAR O BANIMENTO DE SEU EMAIL!
     print('')
     
 # escolha
-
-if escolha == 1:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-#-------------------------------------------------------------------
-elif escolha == 2:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 2:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 2:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 2:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 2:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-#----------------------------------------------------------------------
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 3:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-#--------------------------------------------------------------------
-
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-elif escolha == 4:
-    exec(open('bombEmail.py', encoding="utf-8").read(), globals())
-
-#----------------------------------------------------------------------
-
+while True:
+     if escolha == 1:
+        exec(open('bombEmail.py', encoding="utf-8").read(), globals())
