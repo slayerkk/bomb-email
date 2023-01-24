@@ -3,9 +3,8 @@ import email.message
 
 #email
 def enviar_email():
-    corpo_email = 'corpo do email'
+    corpo_email = 'teste'
     
- 
     msg = email.message.Message()
     msg['Subject'] = 'titulo do email'
     msg['From'] = 'coloque o email que voce usara para atacar'
@@ -23,6 +22,6 @@ def enviar_email():
     # Login Credentials for sending the mail
     s.login(msg['From'], password)
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
-    print('nuked.')
+    print('\033[1;31mEMAIL ENVIADO')
 
 enviar_email()

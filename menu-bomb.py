@@ -1,4 +1,4 @@
-print('''___________________________________________$$s
+print('''\033[0;32m___________________________________________$$s
 _________________________$____$$s___________s$$s
 _________________________s$$$$s$$$$$$s________$$$___s$
 _______________s$$$$$$$$s___s$$$$ss$$$$s________$$$__$$
@@ -53,7 +53,7 @@ __________________________$$___s$$s
 __________________________$$__$$s
 ''')
 #by
-print('''
+print('''\033[1;31m
 █▀▀ █── █▀▀█ █──█ █▀▀ █▀▀█ 
 ▀▀█ █── █▄▄█ █▄▄█ █▀▀ █▄▄▀ 
 ▀▀▀ ▀▀▀ ▀──▀ ▄▄▄█ ▀▀▀ ▀─▀▀''')
@@ -63,13 +63,13 @@ escolha = -1
 #escolhas
 
 while escolha < 1 or escolha > 2:
-    escolha = int(input("""o email sera enviado infinitamente, para parar o script, use control + C
+    escolha = int(input("""\033[1;0mo email sera enviado infinitamente, para parar o script, use control + C
 
 [ 1 ] BOMB
     
 NÃO ME RESPONSABILIZO PELOS SEUS ATOS!!
 ESTE METODO PODERA CAUSAR O BANIMENTO DE SEU EMAIL!    
-    """))
+\033[1;34m---> """))
     print(''' ''')
     print('')
     print('')
