@@ -27,6 +27,6 @@ python3 menu-bomb.py
 -
 discord: SLAYER#1641
 
-ig: @SLAYER#1641kkk_
+ig: @slayerkkk_
 
 wpp: +55 41 9632-1372
